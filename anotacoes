@@ -1,0 +1,8 @@
+@joseivangeraldo ➜ /workspaces/reactive (main) $ node -v
+v20.18.1
+@joseivangeraldo ➜ /workspaces/reactive (main) $ git -v
+git version 2.47.1
+@joseivangeraldo ➜ /workspaces/reactive (main) $ npm -v
+10.8.2
+
+--Instalar a extensão Expo tool para vscode
