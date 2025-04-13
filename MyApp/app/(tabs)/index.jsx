@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
   container:{
     flex:1,
     flexDirection: 'column',
+
   },
   image:{
     width:'100%',
@@ -37,7 +38,7 @@ const styles = StyleSheet.create({
     fontSize:42,
     fontWeight: 'bold',
     textAlign: 'center',
-
-  }
+    backgroundColor:'rgba(0,0,0,0.5)',
+  },
 
 })
