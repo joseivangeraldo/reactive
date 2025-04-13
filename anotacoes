@@ -1,8 +1,28 @@
-@joseivangeraldo ➜ /workspaces/reactive (main) $ node -v
-v20.18.1
-@joseivangeraldo ➜ /workspaces/reactive (main) $ git -v
-git version 2.47.1
-@joseivangeraldo ➜ /workspaces/reactive (main) $ npm -v
-10.8.2
+VIDEO:
+https://www.youtube.com/watch?v=sm5Y7Vtuihg&t=338s
+$ node -v
+$ npm -v
 
---Instalar a extensão Expo tool para vscode
+CRIANDO O APP:
+$ npx create-expo-app@latest my-app
+$ expo login  ---> apara se logar nos servidores expo-go
+
+$ npx expo start ou $ npx expo start --tunnel ESTE ULTIMO SE NÃO ESTIVER NA MESMA REDE WIFI
+Para Chrome ---CTRL + SHIFT + i -->  ABRE opções desenvolvedor. Clicar no icone do celular
+
+PARA EDITAR O TEMPLATE BASICO:
+Em app/(tabs)/index.txt
+Ver opções do server para recarregar a janela.
+
+$ npx create-expo-app MyApp  
+Poderia usar ao final --template blank
+
+INSTALAR EXTENÇÕES:
+ES7+ React/Redux/React-Nati
+Com o componente digite: rnfe
+
+RENOMEAR O  INDEX PARA .jsx
+
+CARREGAR AS IMAGENS Em (assets)/images
+
+
