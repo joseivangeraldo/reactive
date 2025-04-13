@@ -17,6 +17,10 @@ Ver opções do server para recarregar a janela.
 $ npx create-expo-app MyApp  
 Poderia usar ao final --template blank
 
+ABRIR NO SERVIDOR EXPO:
+$ npx expo start OU
+$ npx expo start --tunnel  --> Se não estiver na  mesma rede wifi
+
 INSTALAR EXTENÇÕES:
 ES7+ React/Redux/React-Nati
 Com o componente digite: rnfe
@@ -24,5 +28,7 @@ Com o componente digite: rnfe
 RENOMEAR O  INDEX PARA .jsx
 
 CARREGAR AS IMAGENS Em (assets)/images
+
+
 
 
