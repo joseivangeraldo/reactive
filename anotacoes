@@ -25,9 +25,25 @@ INSTALAR EXTENÇÕES:
 ES7+ React/Redux/React-Nati
 Com o componente digite: rnfe
 
+vscode-icons --icones no gerenciador de arquivos
+
 RENOMEAR O  INDEX PARA .jsx
 
 CARREGAR AS IMAGENS Em (assets)/images
+
+
+
+
+
+
+
+
+    "splash":{
+      "image": "./assets/images/coffee-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+
+    },
 
 
 
