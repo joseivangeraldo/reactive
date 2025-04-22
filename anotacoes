@@ -5,6 +5,10 @@ $ npm -v
 
 CRIANDO O APP:
 $ npx create-expo-app@latest my-app
+$ npx create-expo-app@latest StickerSmash
+$ npm install
+
+
 $ expo login  ---> apara se logar nos servidores expo-go
 
 $ npx expo start ou $ npx expo start --tunnel ESTE ULTIMO SE NÃO ESTIVER NA MESMA REDE WIFI
@@ -22,27 +26,21 @@ $ npx expo start OU
 $ npx expo start --tunnel  --> Se não estiver na  mesma rede wifi
 
 INSTALAR EXTENÇÕES:
-ES7+ React/Redux/React-Nati
+VS Code ES7+ React/Redux/React-Native/JS snippets
 Com o componente digite: rnfe
 
+ICONES NO GERENCIADOR DE ARQUIVOS:
 vscode-icons --icones no gerenciador de arquivos
 
 RENOMEAR O  INDEX PARA .jsx
 
 CARREGAR AS IMAGENS Em (assets)/images
 
-
-
-
-
-
-
-
+* Procurar app.json
     "splash":{
       "image": "./assets/images/coffee-splash.png",
       "resizeMode": "cover",
       "backgroundColor": "#000000"
-
     },
 
 
