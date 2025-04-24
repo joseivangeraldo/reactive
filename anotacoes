@@ -3,6 +3,11 @@ https://www.youtube.com/watch?v=sm5Y7Vtuihg&t=338s
 $ node -v
 $ npm -v
 
+
+@joseivangeraldo ➜ /workspaces/reactive/MyApp (main) $ npx expo start
+Starting project at /workspaces/reactive/MyApp
+ConfigError: Cannot determine which native SDK version your project uses because the module `expo` is not installed. Please install it with `yarn add expo` and try again.
+
 CRIANDO O APP:
 $ npx create-expo-app@latest my-app
 $ npx create-expo-app@latest StickerSmash
