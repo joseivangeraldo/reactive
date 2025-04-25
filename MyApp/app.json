@@ -11,10 +11,9 @@
     
     "splash":{
       "image": "./assets/images/coffee-splash.png",
-      "resizeMode": "cover",
-      "backgroundColor": "#000000"
+            "resizeMode": "contain",
+            "backgroundColor": "#FFFFFF"
     },
-
     "ios": {
       "supportsTablet": true
     },
