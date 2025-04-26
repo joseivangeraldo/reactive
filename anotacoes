@@ -48,6 +48,9 @@ CARREGAR AS IMAGENS Em (assets)/images
       "backgroundColor": "#000000"
     },
 
+    TEVE DE INSTALAR:
+    npx expo install expo-splash-screen
+
 
 Using the config plugin, as shown below, is the recommended method for configuring the splash screen. The other methods are now considered legacy and will be removed in the future.
 
@@ -72,6 +75,30 @@ Copy
     ],
   }
 }
+
+DENTRO DE tsconfig.json
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.jsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/(tabs)/index.jsx"  ]
+}
+
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.jsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts" ]
+
+    mover de tabs. arquivo explore.tsx ,
+    mover direto para app.
+
+    Dentro de app,renomear _layout.tsx
+
+
 
 
 

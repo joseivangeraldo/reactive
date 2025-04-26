@@ -1,5 +1,6 @@
 import { View, Text, StyleSheet, ImageBackground } from 'react-native'
 import React from 'react'
+import { Link } from 'expo-router'
 
 import icedCoffeeImg from "@/assets/images/iced-coffee.png"
 
