@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, ImageBackground } from 'react-native'
+import { View, Text, StyleSheet, ImageBackground, Pressable } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
 
@@ -12,7 +12,13 @@ const app = () => {
         resizeMode='cover'
         style={styles.image}
       >
-      <Text style={styles.text}>Coffee Shop</Text>
+      <Text style={styles.title}>Coffee Shop</Text>
+
+      <Link href="/contact" style = {{marginHorizontal:'auto'}} asChild>      
+      <Pressable style={styles.button}>
+        <text style={styles.buttonText}>Contact us</text></Pressable>
+      </Link>
+
       </ImageBackground>
     </View>
   )
@@ -33,12 +39,36 @@ const styles = StyleSheet.create({
         justifyContent:'center',
 
     },
-    text: {
+    title: {
       color: 'white',
       fontSize: 42,
       fontWeight: 'bold',
       textAlign: 'center',
-      backgroundColor:'rgba(0,0,0,0.5)'
+      backgroundColor:'rgba(0,0,0,0.5)',
+      marginBottom: 120,
+    },
+    link: {
+      color: 'white',
+      fontSize: 42,
+      fontWeight: 'bold',
+      textAlign: 'center',
+      textDecorationLine: 'underline',
+      backgroundColor:'rgba(0,0,0,0.5)',
+      padding: 4,
+    },
+    button:{
+          height: 60,
+          borderRadius: 20,
+          justifyContent: 'center',
+          backgroundColor:'rgba(0,0,0,0.75)',
+          padding: 6,
+    },
 
+    buttonText: {
+      color: 'white',
+      fontSize: 16,
+      fontWeight: 'bold',
+      textAlign: 'center',
+      padding: 4,
     }
 })
