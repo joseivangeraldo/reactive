@@ -100,6 +100,8 @@ DENTRO DE tsconfig.json
     
     TESTE DE ALTERAÇÃO
 
+    ivan@ivan-Inspiron-3437:~/reactive$ git config --global user.email "ivan.geraldo@gmail.com"
+
 
 
 
