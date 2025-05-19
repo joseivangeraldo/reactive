@@ -37,68 +37,13 @@ Com o componente digite: rnfe
 ICONES NO GERENCIADOR DE ARQUIVOS:
 vscode-icons --icones no gerenciador de arquivos
 
-RENOMEAR O  INDEX PARA .jsx
+CRIOU-SE UMA PASTA EM ROOT :src
+e transferiu app, components e constantes
 
-CARREGAR AS IMAGENS Em (assets)/images
+Coloca mais um subfolder : ../ abaixo.
+SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
 
-* Procurar app.json
-    "splash":{
-      "image": "./assets/images/coffee-splash.png",
-      "resizeMode": "cover",
-      "backgroundColor": "#000000"
-    },
-
-    TEVE DE INSTALAR:
-    npx expo install expo-splash-screen
-
-
-Using the config plugin, as shown below, is the recommended method for configuring the splash screen. The other methods are now considered legacy and will be removed in the future.
-
-Example app.json with config plugin
-app.json
-Copy
-{
-  "expo": {
-    "plugins": [
-      [
-        "expo-splash-screen",
-        {
-          "backgroundColor": "#232323",
-          "image": "./assets/splash-icon.png",
-          "dark": {
-            "image": "./assets/splash-icon-dark.png",
-            "backgroundColor": "#000000"
-          },
-          "imageWidth": 200
-        }
-      ]
-    ],
-  }
-}
-
-DENTRO DE tsconfig.json
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.jsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-, "app/(tabs)/index.jsx"  ]
-}
-
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.jsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts" ]
-
-    mover de tabs. arquivo explore.tsx ,
-    mover direto para app.
-
-    Dentro de app,renomear _layout.tsx
-    
-    TESTE DE ALTERAÇÃO
+Tranferir a pasta data folder, para a pasta assets.
 
     ivan@ivan-Inspiron-3437:~/reactive$ git config --global user.email "ivan.geraldo@gmail.com"
 
