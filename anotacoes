@@ -14,6 +14,54 @@ $ npx create-expo-app@latest StickerSmash
 $ npm install
 
 
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+ivan@ivan-Inspiron-3437:~$ cd reactive/
+ivan@ivan-Inspiron-3437:~/reactive$ ls
+anotacoes        git_auto.sh  MyApp              README.md  versao_2
+Atalhos_VStudio  my-app       package-lock.json  versao_1   versoes_345
+ivan@ivan-Inspiron-3437:~/reactive$ git merge
+Already up to date.
+ivan@ivan-Inspiron-3437:~/reactive$ git commit main  "Alterado"
+error: pathspec 'main' did not match any file(s) known to git
+error: pathspec 'Alterado' did not match any file(s) known to git
+ivan@ivan-Inspiron-3437:~/reactive$ git push --force-with-lease
+Everything up-to-date
+
+ivan@ivan-Inspiron-3437:~/reactive$ git status
+ivan@ivan-Inspiron-3437:~/reactive$ git add .
+ivan@ivan-Inspiron-3437:~/reactive$ git commit -m "Alterado pelo meu pc"
+
 $ expo login  ---> apara se logar nos servidores expo-go
 
 $ npx expo start ou $ npx expo start --tunnel ESTE ULTIMO SE NÃO ESTIVER NA MESMA REDE WIFI
@@ -44,6 +92,8 @@ Coloca mais um subfolder : ../ abaixo.
 SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
 
 Tranferir a pasta data folder, para a pasta assets.
+
+
 
     ivan@ivan-Inspiron-3437:~/reactive$ git config --global user.email "ivan.geraldo@gmail.com"
 
