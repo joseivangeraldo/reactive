@@ -1,7 +1,11 @@
 import { StyleSheet } from 'react-native';
 
-import EditScreenInfo from '@/src/app/components/EditScreenInfo';
-import { Text, View } from '@/src/app/components/Themed';
+import EditScreenInfo from '../components/EditScreenInfo';
+import { Text, View } from '../components/Themed';
+import Colors from '../constants/Colors';
+import products from '../../../assets/data/products';
+
+const product = products[0];
 
 export default function TabOneScreen() {
   return (
@@ -13,24 +17,14 @@ export default function TabOneScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: '80%',
-  },
+  container: {},
   title:  {
     fontSize:18,
-    fontWeight: '600',
-    marginVertical: '10',
+    fontWeight: 600,
+    marginVertical: 10,
   },
     price:  {
-    fontSize:20, 
+    color: Colors.light.tint,
     fontWeight: 'bold',
-    color: 'green',
   },
 });
