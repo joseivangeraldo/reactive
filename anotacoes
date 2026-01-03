@@ -3,6 +3,9 @@ https://www.youtube.com/watch?v=sm5Y7Vtuihg&t=338s
 $ node -v
 $ npm -v
 
+Install expo :
+npm install -g expo-cli
+
 
 @joseivangeraldo ➜ /workspaces/reactive/MyApp (main) $ npx expo start
 Starting project at /workspaces/reactive/MyApp
@@ -100,4 +103,22 @@ Tranferir a pasta data folder, para a pasta assets.
 
 
 
-
+To start your Expo development server using a tunnel connection, run the command npx expo start --tunnel in your project's terminal. 
+This command serves your app from a public URL, which is particularly useful when: 
+Your development device and computer are not on the same Wi-Fi network.
+Your local network configuration or a firewall prevents a direct LAN connection.
+You need to test features like universal links on a physical iOS device. 
+Important Considerations
+Slower Speeds: Tunnel connections are considerably slower than local or LAN connections because all requests are routed through a public proxy.
+Package Installation: The first time you use this command, Expo CLI may prompt you to install an additional package (usually ngrok) globally to manage the tunneling service. You should accept the prompt to proceed.
+Security: Tunnel URLs are public and can be accessed by anyone with the link. Expo mitigates this risk by adding a random string of characters (entropy) to the URL. 
+Alternative Method (Configuring package.json)
+You can set the tunnel connection as the default whenever you run the standard npm start (which executes the start script) by modifying your project's package.json file: 
+json
+"scripts": {
+  "start": "expo start --tunnel",
+  "android": "expo start --android",
+  "ios": "expo start --ios",
+  "web": "expo start --web"
+},
+After saving the file, you can simply run npm start or npx expo start to use the tunnel connection automatically. 
