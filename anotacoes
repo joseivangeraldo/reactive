@@ -122,3 +122,7 @@ json
   "web": "expo start --web"
 },
 After saving the file, you can simply run npm start or npx expo start to use the tunnel connection automatically. 
+
+
+$ npx expo start ou $ npx expo start --tunnel ESTE ULTIMO SE NÃO ESTIVER NA MESMA REDE WIFI
+Para Chrome ---CTRL + SHIFT + i -->  ABRE opções desenvolvedor. Clicar no icone do celular
